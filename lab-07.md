@@ -1,13 +1,23 @@
 Lab 07 - Conveying the right message through visualisation
 ================
-Insert your name here
-Insert date here
+Conor Lacey
+02-25-2023
 
 ### Load packages and data
 
 ``` r
 library(tidyverse) 
 ```
+
+    ## Warning: package 'tidyverse' was built under R version 4.1.2
+
+    ## Warning: package 'ggplot2' was built under R version 4.1.2
+
+    ## Warning: package 'tibble' was built under R version 4.1.2
+
+    ## Warning: package 'readr' was built under R version 4.1.2
+
+    ## Warning: package 'dplyr' was built under R version 4.1.2
 
 ### Exercise 1
 
