@@ -86,4 +86,6 @@ df %>% ggplot(aes(x = date, y = count, color = group)) +
 
 It is now more clear in this graph that the there are less cases overall in not-masked counties vs. masked counties. The previous graph made it seem as though they were relatively equal. 
 
+### Exercise 4
 
+This graph should tells us two things. 1) Not-masked counties have less cases overall than masked counties. 2) Wearing a mask does have a negative effect on the number of cases. This lines up with what I know about masking. Here's really what I think. Masking is politically tied where masking is associated with a more liberal population while not masking is associated with a more conservative population. Urban areas with dense populations typically have more liberal individuals while rural areas with smaller populations typically have more conservative individuals. With more people concentrated in one area the risk of getting covid is higher and hence cases are higher in urban areas vs. rural. As a result, I would find it interesting if we control for population density and then looked at the effect of masking.
