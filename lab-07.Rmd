@@ -68,6 +68,19 @@ head(df)
 
 
 ### Exercise 2
+```{r visualizaition}
+df %>% ggplot(aes(x = date, y = count, color = group)) + 
+  geom_point() +
+  geom_line(aes(group = group)) +
+  labs (title = "Kansas COVID-19 7-Day Rolling Averarge of Daily Cases/Per 100K Population",
+        subtitle = "Masked Counties Vs. Not-Masked Counties",
+        x = "Date",
+        y = "",
+        caption = "Source: Kansas Department of Health and Environment",
+        color = "") + 
+  scale_color_discrete(labels = c("Masked","Not-Masked"))+
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) 
+```
 
 
 
