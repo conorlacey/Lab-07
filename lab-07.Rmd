@@ -82,6 +82,8 @@ df %>% ggplot(aes(x = date, y = count, color = group)) +
   theme(axis.text.x = element_text(angle = 45, hjust=1)) 
 ```
 
+### Exercise 3
+
+It is now more clear in this graph that the there are less cases overall in not-masked counties vs. masked counties. The previous graph made it seem as though they were relatively equal. 
 
 
-Add exercise headings as needed.
